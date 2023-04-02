@@ -1,0 +1,180 @@
+body {
+  background: radial-gradient(white, gray, black);
+}
+
+/*grid items are compiled as imgaes in a row, with space for text uderneath, set font to 0 to remove text area below grid item*/
+.output {
+  position: relative;
+  top:30px;
+  outline: 1px solid red;
+  font-size: 0;
+  width: 960px;
+  height: 960px;
+  margin: auto;
+  padding: 0;
+  background: white;
+  
+  
+}
+
+.grid {
+  /*outline: 1px solid black;*/
+  display: inline-block;
+  align-items: stretch;
+}
+
+.buttonColor {
+  width:30px;
+  height: 30px;
+  
+ 
+}
+
+ 
+
+#red {
+   /* The native appearance is hidden */
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: radial-gradient(#D21404,#710C04);
+  border: 3px solid #710C04;
+  box-shadow: 0 0 0 1px #710C04;
+  margin: 10px;
+}
+#red:hover {
+  background: red;
+}
+#red:checked {
+  background: red;
+  scale: 2;
+}
+
+#orange {
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: radial-gradient(#FCAE1E,#DD571C);
+  border: 3px solid #DD571C;
+  box-shadow: 0 0 0 1px #DD571C;
+  margin: 10px;
+}
+#orange:hover {
+  background: orange;
+}
+#orange:checked {
+  background: orange;
+  scale: 2;
+}
+
+#yellow {
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: radial-gradient(#FFDA03, #FFBF00);
+  border: 3px solid #FFBF00;
+  box-shadow: 0 0 0 1px #FFBF00;
+  margin: 10px;
+  
+}
+#yellow:hover {
+  background: yellow;
+}
+#yellow:checked {
+  background: yellow;
+  scale: 2;
+}
+#blue {
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: radial-gradient(#0492C2,#1520A6);
+  border: 3px solid #1520A6;
+  box-shadow: 0 0 0 1px #1520A6;
+  margin: 10px;
+}
+#blue:hover {
+  background: blue;
+}
+#blue:checked {
+  background: blue;
+  scale: 2;
+}
+#green {
+   appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: radial-gradient(#B0FC38, #028A0F);
+  border: 3px solid #028A0F;
+  box-shadow: 0 0 0 1px #028A0F;
+  margin: 10px;
+}
+#green:hover {
+  background: green;
+}
+#green:checked {
+  background: #B0FC38;
+  scale: 2;
+}
+#purple {
+   appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: radial-gradient(#A32CC4,#311432);
+  border: 3px solid #311432;
+  box-shadow: 0 0 0 1px #311432;
+  margin: 10px;
+}
+#purple:hover {
+  background: purple;
+}
+#purple:checked {
+  background: #A32CC4;
+  scale: 2;
+}
+#black {
+   appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: radial-gradient(grey,black);
+  border: 3px solid black;
+  box-shadow: 0 0 0 1px black;
+  margin: 10px;
+}
+#black:hover {
+  background: black;
+}
+#black:checked {
+  background: black;
+  scale: 2;
+}
+#white {
+   appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: radial-gradient(white,gray);
+  border: 3px solid white;
+  box-shadow: 0 0 0 1px gray;
+  margin: 10px;
+}
+#white:hover {
+  background: white;
+}
+#white:checked {
+  background: white;
+  scale: 2;
+}
+
+#selectionButtons {
+  margin: 10px;
+  padding:10px;
+  
+}
+
+#colorButtons {
+  
+  background: radial-gradient(grey, white);
+  width: 30%;
+  padding:10px;
+  box-shadow: 1px 1px 20px 20px white;
+}

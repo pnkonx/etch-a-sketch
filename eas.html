@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>Document</title>
+</head>
+<body>
+  <center>
+    <h1>Etch-A-Sketch</h1>
+    <div id="colorButtons">
+    <input type="radio" id="red" name="color" value="red" class="buttonColor"></input>
+    <input type="radio" id="orange" name="color" value="orange" class="buttonColor"></input>
+    <input type="radio" id="yellow" name="color" value="yellow" class="buttonColor"></input>
+    <input type="radio" id="blue" name="color" value="blue" class="buttonColor"></input>
+    <input type="radio" id="green" name="color" value="green" class="buttonColor"></input>
+    <input type="radio" id="purple" name="color" value="purple" class="buttonColor"></input>
+    <input type="radio" id="black" name="color" value="black" class="buttonColor"></input>
+    <input type="radio" id="white" name="color" value="white" class="buttonColor"></input>
+    </div>
+    <br>
+    <div id="selectionButtons">
+    <button onclick="run()" class="userInput">New Grid</button>
+    <button onClick="clearGrid()" class="clear">Clear Grid</button>
+    </div>
+    <div id="output"class="output"></div>
+  </center>
+</body>
+</html>
